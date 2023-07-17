@@ -1,0 +1,53 @@
+/* common style shared */
+:root{
+    --transition: all 0.3s; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #3A3A3A;
+    font-family: poppins;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* header area start */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 87px 120px 0px 120px;
+}
+
+.brand-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+}
+
+.fa-search:hover, .fa-cart-shopping:hover{
+    color: #E02C6D;
+
+}
+
+.menu-item{
+    font-size: 16px;
+    font-weight: 600;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    color: #E02C6D;
+}
+/* header area end */
+
+/* banner area start */
