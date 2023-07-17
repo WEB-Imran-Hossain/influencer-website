@@ -105,8 +105,19 @@
     background-image: url("../images/Circle\ design.svg");
 }
 /* banner area end */
+.brand-logo{
+    width: 80%;
+    margin: 0 auto;
+}
 
-
+.logo-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    border-top: 1px solid rgba(192, 204, 218, 0.60);
+    border-bottom: 1px solid rgba(192, 204, 218, 0.60);
+}
 
 
 
