@@ -222,39 +222,34 @@
     line-height: 28px;
 }
 
+/* footer area start  */
+.footer{
+    background-color: #0A0826;
+    padding: 80px;
+}
 
+.footer-heading{
+    text-align: center;
+}
 
+.footer-title{
+    color: #FFF;
+}
 
+.copy{
+    color: #FFF;
+    margin-top: 20px;
+}
 
+.social-link{
+    text-align: center;
+    margin-top: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social-item{
+   color: #FFF;
+   margin-right: 20px;
+}
 
 /* responsive style here */
 
@@ -307,6 +302,11 @@
         flex-direction: column-reverse;
         text-align: center;
     }
+
+    .footer{
+        width: 100%;
+        padding: 20px;
+    }
 }
 
 /* tablet or medium devices responsive */
@@ -350,5 +350,10 @@
     .feature-container{
         flex-direction: column-reverse;
         text-align: center;
+    }
+
+    .footer{
+        width: 100%;
+        padding: 20px;
     }
 }
