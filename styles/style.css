@@ -145,7 +145,8 @@
     box-shadow: var(--box-shadow);
     border-radius: 5px;
     padding: 20px;
-}
+    margin: 0 auto;
+    }
 
 .box-image{
     border-radius: 5px;
@@ -180,6 +181,22 @@
     line-height: 143%;
     letter-spacing: 0.252px; 
 }
+
+.collection-btn{
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.btn-text{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* popular collection area end */
 
 
 
@@ -253,6 +270,14 @@
     .logo-container{
         flex-direction: row;
     }
+
+    .price-container{
+        grid-template-columns: 1fr;
+    }
+
+    .collection-btn{
+       text-align: center;
+    }
 }
 
 /* tablet or medium devices responsive */
@@ -283,5 +308,13 @@
     .banner-description{
         font-size: 16px;
         font-weight: 500;
+    }
+
+    .price-container{
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .collection-btn{
+       text-align: center;
     }
 }
