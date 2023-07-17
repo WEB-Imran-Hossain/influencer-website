@@ -198,6 +198,30 @@
 
 /* popular collection area end */
 
+/* feature products area start */
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.feature-heading{
+    padding: 100px;
+}
+
+.feature-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.feature-description{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
 
 
 
@@ -278,6 +302,11 @@
     .collection-btn{
        text-align: center;
     }
+
+    .feature-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 }
 
 /* tablet or medium devices responsive */
@@ -311,10 +340,15 @@
     }
 
     .price-container{
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: 1fr;
     }
 
     .collection-btn{
        text-align: center;
+    }
+
+    .feature-container{
+        flex-direction: column-reverse;
+        text-align: center;
     }
 }
