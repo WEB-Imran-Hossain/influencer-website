@@ -11,10 +11,29 @@
     font-weight: 400;
     text-decoration: none;
     list-style-type: none;
+    border: none;
+}
+
+.btn-primary{
+    background-color: #E02C6D;
+    color: #FFF;
+    padding: 10px 24px;
+    margin-top: 16px;
+    border-radius: 41px;
+    transition: var(--transition);
+}
+
+.btn-primary:hover{
+    background-color: #000;
+    color: #FFF;
 }
 
 /* header area start */
-.container{
+.top-header{
+    height: 100vh;
+}
+
+.header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +43,15 @@
 .brand-logo{
     font-size: 24px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.brand-logo:hover{
+    color: #E02C6D;
+}
+
+.menu{
+    cursor: pointer;
 }
 
 .menu ul{
@@ -51,3 +79,136 @@
 /* header area end */
 
 /* banner area start */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 87px 120px 0px 120px;
+}
+.banner-heading{
+    margin-top: 16px;
+}
+
+.banner-title{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-img{
+    width: 440px;
+    height: 414px;
+    background-image: url("../images/Circle\ design.svg");
+}
+/* banner area end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive style here */
+
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+    .header-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .banner-heading{
+        margin-top: 50px;
+    }
+
+    .banner-description{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .banner-title{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+/* tablet or medium devices responsive */
+
+@media screen and (min-width: 576px) and (max-width:992px){
+    .header-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .menu ul{
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .banner-title{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .banner-description{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
